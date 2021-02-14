@@ -23,4 +23,7 @@ module ActiveStorage
   # Raised when ActiveStorage::Blob#download is called on a blob where the
   # backing file is no longer present in its service.
   class FileNotFoundError < Error; end
+
+  # Raised when direct upload fails because of wrong token
+  class WrongDirectUploadTokenError < Error; end
 end

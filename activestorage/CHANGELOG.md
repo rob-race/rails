@@ -25,6 +25,10 @@
 
     *Ali Ismayilov*
 
+*   Pass `service_name` param to `DirectUploadsController`
+
+    *Dmitry Tsepelev*
+
 *   Declare `ActiveStorage::FixtureSet` and `ActiveStorage::FixtureSet.blob` to
     improve fixture integration
 
